@@ -16,10 +16,10 @@
 		04AFFB2722B35238009B3E47 /* EBUtility+WX.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB1F22B35238009B3E47 /* EBUtility+WX.m */; };
 		04AFFB2822B35238009B3E47 /* EBWXOldModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB2022B35238009B3E47 /* EBWXOldModule.m */; };
 		04AFFB2922B35238009B3E47 /* EBWXModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB2122B35238009B3E47 /* EBWXModule.m */; };
-		04AFFBC422B3532B009B3E47 /* EBNativeFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9222B3532A009B3E47 /* EBNativeFunction.h */; };
+		04AFFBC422B3532B009B3E47 /* EBNativeFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9222B3532A009B3E47 /* EBNativeFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFBC522B3532B009B3E47 /* EBExpressionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB9322B3532A009B3E47 /* EBExpressionHandler.m */; };
 		04AFFBC622B3532B009B3E47 /* EBExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB9422B3532A009B3E47 /* EBExpression.m */; };
-		04AFFBC722B3532B009B3E47 /* EBHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9522B3532A009B3E47 /* EBHandlerFactory.h */; };
+		04AFFBC722B3532B009B3E47 /* EBHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9522B3532A009B3E47 /* EBHandlerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFBC822B3532B009B3E47 /* EBGyroEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9622B3532A009B3E47 /* EBGyroEuler.h */; };
 		04AFFBC922B3532B009B3E47 /* EBGyroVector3.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB9722B3532A009B3E47 /* EBGyroVector3.m */; };
 		04AFFBCA22B3532B009B3E47 /* EBExpressionExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB9822B3532A009B3E47 /* EBExpressionExecutor.h */; };
@@ -45,7 +45,7 @@
 		04AFFBDE22B3532B009B3E47 /* EBGyroVector3.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBAC22B3532A009B3E47 /* EBGyroVector3.h */; };
 		04AFFBDF22B3532B009B3E47 /* EBGyroEuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBAD22B3532A009B3E47 /* EBGyroEuler.m */; };
 		04AFFBE022B3532B009B3E47 /* EBHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBAE22B3532A009B3E47 /* EBHandlerFactory.m */; };
-		04AFFBE122B3532B009B3E47 /* EBExpressionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBAF22B3532A009B3E47 /* EBExpressionHandler.h */; };
+		04AFFBE122B3532B009B3E47 /* EBExpressionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBAF22B3532A009B3E47 /* EBExpressionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFBE222B3532B009B3E47 /* EBExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB022B3532A009B3E47 /* EBExpression.h */; };
 		04AFFBE322B3532B009B3E47 /* EBNativeFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBB122B3532A009B3E47 /* EBNativeFunction.m */; };
 		04AFFBE422B3532B009B3E47 /* EBGyroQuaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBB222B3532A009B3E47 /* EBGyroQuaternion.m */; };
@@ -53,7 +53,7 @@
 		04AFFBE622B3532B009B3E47 /* EBTaffyTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB422B3532A009B3E47 /* EBTaffyTuple.h */; };
 		04AFFBE722B3532B009B3E47 /* EBJSTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB522B3532A009B3E47 /* EBJSTransform.h */; };
 		04AFFBE822B3532B009B3E47 /* EBExpressionGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB622B3532A009B3E47 /* EBExpressionGesture.h */; };
-		04AFFBE922B3532B009B3E47 /* EBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB722B3532A009B3E47 /* EBUtility.h */; };
+		04AFFBE922B3532B009B3E47 /* EBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB722B3532A009B3E47 /* EBUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFBEA22B3532B009B3E47 /* EBGyroOrientationEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBB822B3532A009B3E47 /* EBGyroOrientationEvaluator.h */; };
 		04AFFBEB22B3532B009B3E47 /* EBJSEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBB922B3532A009B3E47 /* EBJSEase.m */; };
 		04AFFBEC22B3532B009B3E47 /* EBBindData.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBBA22B3532A009B3E47 /* EBBindData.h */; };
@@ -255,21 +255,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AFFBDE22B3532B009B3E47 /* EBGyroVector3.h in Headers */,
 				04AFFBE922B3532B009B3E47 /* EBUtility.h in Headers */,
+				04AFFBE122B3532B009B3E47 /* EBExpressionHandler.h in Headers */,
+				04AFFBC722B3532B009B3E47 /* EBHandlerFactory.h in Headers */,
+				04AFFBC422B3532B009B3E47 /* EBNativeFunction.h in Headers */,
+				04AFFBDE22B3532B009B3E47 /* EBGyroVector3.h in Headers */,
 				04AFFBD122B3532B009B3E47 /* EBGyroQuaternion.h in Headers */,
 				04AFFBD622B3532B009B3E47 /* BindingX.h in Headers */,
 				04AFFBE722B3532B009B3E47 /* EBJSTransform.h in Headers */,
 				04AFFBD822B3532B009B3E47 /* EBJSEase.h in Headers */,
 				04AFFB2622B35238009B3E47 /* EBWXUtils.h in Headers */,
 				04AFFBDB22B3532B009B3E47 /* NSObject+EBTuplePacker.h in Headers */,
-				04AFFBC722B3532B009B3E47 /* EBHandlerFactory.h in Headers */,
 				04AFFBF122B3532B009B3E47 /* EBExpressionScroller.h in Headers */,
 				04AFFBDA22B3532B009B3E47 /* EBJSMath.h in Headers */,
 				04AFFBE822B3532B009B3E47 /* EBExpressionGesture.h in Headers */,
-				04AFFBE122B3532B009B3E47 /* EBExpressionHandler.h in Headers */,
 				04AFFBCA22B3532B009B3E47 /* EBExpressionExecutor.h in Headers */,
-				04AFFBC422B3532B009B3E47 /* EBNativeFunction.h in Headers */,
 				04AFFB2422B35238009B3E47 /* EBUtility+WX.h in Headers */,
 				04AFFBD522B3532B009B3E47 /* EBExpressionScope.h in Headers */,
 				04AFFBE222B3532B009B3E47 /* EBExpression.h in Headers */,
