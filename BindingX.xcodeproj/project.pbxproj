@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04291C9122B3798000EA305A /* WeexPluginLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04291C9022B3798000EA305A /* WeexPluginLoader.framework */; };
-		04AFFB2222B35238009B3E47 /* EBWXModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1A22B35238009B3E47 /* EBWXModule.h */; };
+		04AFFB2222B35238009B3E47 /* EBWXModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1A22B35238009B3E47 /* EBWXModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFB2322B35238009B3E47 /* EBWXOldModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1B22B35238009B3E47 /* EBWXOldModule.h */; };
 		04AFFB2422B35238009B3E47 /* EBUtility+WX.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1C22B35238009B3E47 /* EBUtility+WX.h */; };
 		04AFFB2522B35238009B3E47 /* EBWXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFB1D22B35238009B3E47 /* EBWXUtils.m */; };
@@ -259,6 +259,7 @@
 				04AFFBE122B3532B009B3E47 /* EBExpressionHandler.h in Headers */,
 				04AFFBC722B3532B009B3E47 /* EBHandlerFactory.h in Headers */,
 				04AFFBC422B3532B009B3E47 /* EBNativeFunction.h in Headers */,
+				04AFFB2222B35238009B3E47 /* EBWXModule.h in Headers */,
 				04AFFBDE22B3532B009B3E47 /* EBGyroVector3.h in Headers */,
 				04AFFBD122B3532B009B3E47 /* EBGyroQuaternion.h in Headers */,
 				04AFFBD622B3532B009B3E47 /* BindingX.h in Headers */,
@@ -280,7 +281,6 @@
 				04AFFBF522B3532B009B3E47 /* EBJSEvaluate.h in Headers */,
 				04AFFBEA22B3532B009B3E47 /* EBGyroOrientationEvaluator.h in Headers */,
 				04AFFBEC22B3532B009B3E47 /* EBBindData.h in Headers */,
-				04AFFB2222B35238009B3E47 /* EBWXModule.h in Headers */,
 				04AFFBD322B3532B009B3E47 /* EBExpressionTiming.h in Headers */,
 				04AFFBC822B3532B009B3E47 /* EBGyroEuler.h in Headers */,
 				04AFFBD022B3532B009B3E47 /* EBGyroManager.h in Headers */,
