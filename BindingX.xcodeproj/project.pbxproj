@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04291C9122B3798000EA305A /* WeexPluginLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04291C9022B3798000EA305A /* WeexPluginLoader.framework */; };
+		046ED10C2303BA2700C0358B /* WeexSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046ED10B2303BA2700C0358B /* WeexSDK.framework */; };
 		04AFFB2222B35238009B3E47 /* EBWXModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1A22B35238009B3E47 /* EBWXModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AFFB2322B35238009B3E47 /* EBWXOldModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1B22B35238009B3E47 /* EBWXOldModule.h */; };
 		04AFFB2422B35238009B3E47 /* EBUtility+WX.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFB1C22B35238009B3E47 /* EBUtility+WX.h */; };
@@ -65,12 +66,12 @@
 		04AFFBF222B3532B009B3E47 /* EBJSMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBC022B3532A009B3E47 /* EBJSMath.m */; };
 		04AFFBF322B3532B009B3E47 /* NSObject+EBTuplePacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFFBC122B3532A009B3E47 /* NSObject+EBTuplePacker.m */; };
 		04AFFBF522B3532B009B3E47 /* EBJSEvaluate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AFFBC322B3532A009B3E47 /* EBJSEvaluate.h */; };
-		04AFFBFA22B35D40009B3E47 /* WeexSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AFFBF922B35D40009B3E47 /* WeexSDK.framework */; };
 		04AFFC1222B3771A009B3E47 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AFFC1122B3771A009B3E47 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04291C9022B3798000EA305A /* WeexPluginLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexPluginLoader.framework; sourceTree = "<group>"; };
+		046ED10B2303BA2700C0358B /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeexSDK.framework; path = Carthage/Build/iOS/WeexSDK.framework; sourceTree = "<group>"; };
 		04AFFB0E22B35180009B3E47 /* BindingX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BindingX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AFFB1A22B35238009B3E47 /* EBWXModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBWXModule.h; sourceTree = "<group>"; };
 		04AFFB1B22B35238009B3E47 /* EBWXOldModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBWXOldModule.h; sourceTree = "<group>"; };
@@ -130,7 +131,6 @@
 		04AFFBC022B3532A009B3E47 /* EBJSMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBJSMath.m; sourceTree = "<group>"; };
 		04AFFBC122B3532A009B3E47 /* NSObject+EBTuplePacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EBTuplePacker.m"; sourceTree = "<group>"; };
 		04AFFBC322B3532A009B3E47 /* EBJSEvaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBJSEvaluate.h; sourceTree = "<group>"; };
-		04AFFBF922B35D40009B3E47 /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeexSDK.framework; path = Carthage/Build/iOS/Static/WeexSDK.framework; sourceTree = "<group>"; };
 		04AFFC1122B3771A009B3E47 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 			files = (
 				04291C9122B3798000EA305A /* WeexPluginLoader.framework in Frameworks */,
 				04AFFC1222B3771A009B3E47 /* libc++.tbd in Frameworks */,
-				04AFFBFA22B35D40009B3E47 /* WeexSDK.framework in Frameworks */,
+				046ED10C2303BA2700C0358B /* WeexSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,9 +241,9 @@
 		04AFFBF622B35782009B3E47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				046ED10B2303BA2700C0358B /* WeexSDK.framework */,
 				04291C9022B3798000EA305A /* WeexPluginLoader.framework */,
 				04AFFC1122B3771A009B3E47 /* libc++.tbd */,
-				04AFFBF922B35D40009B3E47 /* WeexSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -298,6 +298,7 @@
 				04AFFB0A22B35180009B3E47 /* Sources */,
 				04AFFB0B22B35180009B3E47 /* Frameworks */,
 				04AFFB0C22B35180009B3E47 /* Resources */,
+				046ED10E2303BA8600C0358B /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,6 +349,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046ED10E2303BA8600C0358B /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/WeexSDK.framework",
+			);
+			name = "Copy Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/WeexSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04AFFB0A22B35180009B3E47 /* Sources */ = {
@@ -516,10 +540,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -545,10 +570,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
